@@ -1,4 +1,4 @@
-//Question 3.4
+//Question 3.4.
 import java.util.Scanner;
 
 public class TableNoTab {
@@ -10,12 +10,12 @@ public class TableNoTab {
 		nb=sc.nextInt();
 		for (i=0; i<nb+1;i++){
 			for (j=0; j<nb+1;j++){
-				if (i*j>=10 && i*j<100) //tant que i*j est ˆ 2 chiffres, mettre 3 espace. Cela Žvite les dŽcallages.
+				if (i*j>=10 && i*j<100) //tant que i*j est ï¿½ 2 chiffres, mettre 3 espace. Cela ï¿½vite les dï¿½callages.
 					System.out.print(i*j+"   ");
 				if (i*j>=100 && i*j<1000)
 					System.out.print(i*j+"  ");
 				if (i*j>=1000)
-					System.out.print(i*j+" "); //enleve un espace si 1000 est dŽpassŽ. Alignement valable pour une valeur max de 10000.
+					System.out.print(i*j+" "); //enleve un espace si 1000 est dï¿½passï¿½. Alignement valable pour une valeur max de 10000.
 				if (i*j<10)
 					System.out.print(i*j+"    ");
 			}
