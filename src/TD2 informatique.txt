@@ -1,0 +1,18 @@
+TD2 informatique Réponses aux questions.___
+3.2/ a^n effectue n multiplications.
+
+___
+
+3.3/ On peut renvoyer un texte au lieu d’un booléen. C’est d’ailleurs ce que j’ai fait pour plus de clarté.
+
+___
+
+3.6/ Les résultats du programme : 
+
+La valeur 55 ne se trouve pas dans le tableau suivant : [1, 2, 3, 4, 5]
+La valeur 5 se trouve à la place n°4 dans le tableau suivant : [1, 2, 3, 4, 5]
+La valeur 9 se trouve à la place n°0 dans le tableau suivant : [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+La valeur 5 se trouve à la place n°4 dans le tableau suivant : [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+Le nombre d’instructions exécutées dépend de la place de la valeur dans la liste. 
+S’il trouve le nombre, la boucle for s’arrête, sinon elle continue jusqu’au bout.
