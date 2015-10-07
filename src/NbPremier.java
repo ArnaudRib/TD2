@@ -1,11 +1,11 @@
-//Question 3.3
+//Question 3.3.
 import java.util.Scanner;
 
 public class NbPremier {
 	public static void main(String[] args) {
 		double nb,res=1, test;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Nombre ˆ tester?");
+		System.out.println("Nombre ï¿½ tester?");
 		nb=sc.nextDouble();
 		test=nb-1;
 		while (test>1){
@@ -19,5 +19,4 @@ public class NbPremier {
 		if (res==0)
 			System.out.print(nb+" n'est pas premier.");
 	}
-
 }
