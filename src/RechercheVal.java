@@ -1,4 +1,4 @@
-// Question 3.6
+// Question 3.6.
 import java.util.Arrays;
 import java.util.Scanner;
 
