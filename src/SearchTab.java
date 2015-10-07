@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SearchTab {
 
-	public static int [] calculerTable(int nb, int max) { //utilisation de la fonction création de tableau
+	public static int [] calculerTable(int nb, int max) { //utilisation de la fonction création de tableau.
 		int multiplication=0;
 		int x=max+1;
 		int tab[]= new int[max+1];
@@ -17,11 +17,11 @@ public class SearchTab {
 				}
 			}
 		System.out.println("Le tableau de valeur est le suivant:");
-		System.out.println(Arrays.toString(tab));//affiche le tableau souhaité
+		System.out.println(Arrays.toString(tab));//affiche le tableau souhaité.
 		return tab;
 		}
 
-	public static int Search(int val, int tab []) { //création de la fonction search
+	public static int Search(int val, int tab []) { //création de la fonction search.
 		int x;
 		int place=-1;
 		for (x=0; x<tab.length; x++){
@@ -34,7 +34,6 @@ public class SearchTab {
 		}else{
 			System.out.println("La valeur recherch�e se trouve à la place n°"+place+"!");
 			}
-
 		return place;
 		}
 
