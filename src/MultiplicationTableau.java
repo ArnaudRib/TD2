@@ -1,4 +1,4 @@
-// Question 3.5
+// Question 3.5.
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -20,10 +20,10 @@ public class MultiplicationTableau {
 		System.out.println(Arrays.toString(tab));
 		return multiplication;
 		}
-	
+
 	public static void main(String[] args) {
 		int a, b;
-		Scanner sc = new Scanner(System.in);	
+		Scanner sc = new Scanner(System.in);
 		System.out.println("De quel nombre voulez vous la table?");
 		a = sc.nextInt();
 		System.out.println("Quel nombre maximal de la table?");
