@@ -1,4 +1,4 @@
-//Question 3.1
+//Question 3.1.
 import java.util.Scanner;
 
 public class ExerciceRegle {
