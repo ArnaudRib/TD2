@@ -1,4 +1,4 @@
-//Question 3.2
+//Question 3.2.
 import java.util.Scanner;
 
 public class Puissance {
